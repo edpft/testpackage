@@ -47,3 +47,7 @@ usethis::use_package(
 usethis::use_package(
   package = "sf"
 )
+
+usethis::use_readme_rmd()
+
+devtools::check()
